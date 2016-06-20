@@ -24,3 +24,13 @@ if (equal === true) {
 } else {
   alert('Sorry, try again.');
 }
+
+var gameBoard = document.getElementById("game-board");
+
+var createBoard = function(){
+for (var i = 0; i < 3; i++ ){
+  var cardElement = document.createElement('div');
+  cardElement.className = "card";
+  board.appendChild(cardElement);
+}
+};
