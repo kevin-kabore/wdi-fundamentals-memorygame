@@ -28,7 +28,7 @@ if (equal === true) {
 var gameBoard = document.getElementById("game-board");
 
 var createBoard = function(){
-for (var i = 0; i < 3; i++ ){
+for (var i = 0; i < 4; i++ ){
   var cardElement = document.createElement('div');
   cardElement.className = "card";
   board.appendChild(cardElement);
